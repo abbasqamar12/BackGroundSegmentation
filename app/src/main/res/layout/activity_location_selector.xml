@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_1"
+    tools:context=".LocationSelectorActivity">
+
+    <TextView
+        android:id="@+id/txtDummy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="a"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtSelectLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        android:text="@string/be_part_of_american_pride"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/imgLasVegas"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/white_bg"
+        android:padding="5dp"
+        android:src="@drawable/vegas"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintStart_toEndOf="@id/txtDummy"
+        app:layout_constraintTop_toBottomOf="@id/txtSelectLocation"
+        app:layout_constraintWidth_percent="0.12" />
+
+    <TextView
+        android:id="@+id/txtLasVegas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/white_bg"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:text="@string/las_vegas"
+        android:textAllCaps="true"
+        android:textColor="@color/red"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@id/imgLasVegas"
+        app:layout_constraintStart_toStartOf="@id/imgLasVegas"
+        app:layout_constraintTop_toBottomOf="@id/imgLasVegas" />
+
+
+    <ImageView
+        android:id="@+id/imgNewYork"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/white_bg"
+        android:padding="5dp"
+        android:src="@drawable/vegas"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toEndOf="@id/txtDummy"
+        app:layout_constraintTop_toBottomOf="@id/txtSelectLocation"
+        app:layout_constraintWidth_percent="0.12" />
+
+    <TextView
+        android:id="@+id/txtNewYork"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/white_bg"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:text="@string/las_vegas_2"
+        android:textAllCaps="true"
+        android:textColor="@color/red"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@id/imgNewYork"
+        app:layout_constraintStart_toStartOf="@id/imgNewYork"
+        app:layout_constraintTop_toBottomOf="@id/imgNewYork" />
+
+
+    <ImageView
+        android:id="@+id/imgTexas"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/white_bg"
+        android:padding="5dp"
+        android:src="@drawable/new_york"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintStart_toEndOf="@id/txtDummy"
+        app:layout_constraintTop_toBottomOf="@id/txtLasVegas"
+        app:layout_constraintWidth_percent="0.12" />
+
+    <TextView
+        android:id="@+id/txtTexas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/white_bg"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:text="@string/new_york"
+        android:textAllCaps="true"
+        android:textColor="@color/red"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@id/imgTexas"
+        app:layout_constraintStart_toStartOf="@id/imgTexas"
+        app:layout_constraintTop_toBottomOf="@id/imgTexas" />
+
+
+    <ImageView
+        android:id="@+id/imgLasAngeles"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/white_bg"
+        android:padding="5dp"
+        android:src="@drawable/new_york"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toEndOf="@id/txtDummy"
+        app:layout_constraintTop_toBottomOf="@id/txtLasVegas"
+        app:layout_constraintWidth_percent="0.12" />
+
+    <TextView
+        android:id="@+id/txtLasAngeles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/white_bg"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:text="@string/new_york_2"
+        android:textAllCaps="true"
+        android:textColor="@color/red"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@id/imgLasAngeles"
+        app:layout_constraintStart_toStartOf="@id/imgLasAngeles"
+        app:layout_constraintTop_toBottomOf="@id/imgLasAngeles" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
